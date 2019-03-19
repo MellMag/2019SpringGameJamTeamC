@@ -12,14 +12,14 @@ public class otosi : MonoBehaviour
     void Start()
     {
       
-        speed = 5;
-        Destroy(gameObject, 2f);
+        //speed = 5;
+        //Destroy(gameObject, 2f);
     }
 
     // Update is called once per frame
     void Update()
     {
-        GetComponent<Rigidbody2D>().velocity
-                            = -transform.up * speed;
+        /*GetComponent<Rigidbody2D>().velocity
+                            = -transform.up * speed;*/
     }
 }

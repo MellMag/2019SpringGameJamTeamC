@@ -24,7 +24,7 @@ public class seisei : MonoBehaviour
         time += Time.deltaTime;
         if (time >= 2)
         {
-            x = Random.Range(-9.0f, -2.0f);
+            x = Random.Range(-4.0f, -2.0f);
             y = Random.Range(5.0f, 5.0f);
             //z = Random.Range(0.0f, 360.0f);
             z = 180f;
