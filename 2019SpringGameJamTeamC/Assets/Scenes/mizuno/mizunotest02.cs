@@ -32,6 +32,7 @@ public class mizunotest02 : MonoBehaviour
             //Debug.Log(clickedGameObject);
             //Destroy(clickedGameObject);
             clickedGameObject.GetComponent<mizunotest01>().ClickeOnHit();
+            clickedGameObject.GetComponent<mizunotest01>();
         }
     }
 }
