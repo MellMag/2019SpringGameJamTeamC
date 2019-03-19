@@ -26,14 +26,15 @@ public class seisei : MonoBehaviour
         {
             x = Random.Range(-4.0f, -2.0f);
             y = Random.Range(5.0f, 5.0f);
-            //z = Random.Range(0.0f, 360.0f);
-            z = 180f;
+            z = Random.Range(0.0f, 18.0f);
+         
             type = Random.Range(0.0f, 3.0f);
             type = Mathf.Floor(type);
             switch (type)
             {
                 case 0:
                     Instantiate(Image, new Vector3(x, y, z), transform.rotation);
+                    transform.Rotate(new Vector3(0, 0, z));
                     break;
 
                 case 1:
