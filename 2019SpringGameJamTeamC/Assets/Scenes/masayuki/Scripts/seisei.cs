@@ -8,7 +8,10 @@ public class seisei : MonoBehaviour
     float y;
     float z;
     float time;
+    public float type;
     public GameObject Image;
+    public GameObject Image1;
+    public GameObject Image2;
     // Start is called before the first frame update
     void Start()
     {
@@ -23,10 +26,24 @@ public class seisei : MonoBehaviour
         {
             x = Random.Range(-9.0f, -2.0f);
             y = Random.Range(5.0f, 5.0f);
-            z = Random.Range(0.0f, 0.0f);
+            //z = Random.Range(0.0f, 360.0f);
+            z = 180f;
+            type = Random.Range(0.0f, 3.0f);
+            type = Mathf.Floor(type);
+            switch (type)
+            {
+                case 0:
+                    Instantiate(Image, new Vector3(x, y, z), transform.rotation);
+                    break;
 
-            Instantiate(Image, new Vector3(x,y,z), transform.rotation);
-            time = 0f;
+                case 1:
+                    Instantiate(Image1, new Vector3(x, y, z), transform.rotation);
+                    break;
+                case 2:
+                    Instantiate(Image2, new Vector3(x, y, z), transform.rotation);
+                    break;
+            }
+                    time = 0f;
         }
     }
 }
