@@ -12,7 +12,7 @@ public class otosi : MonoBehaviour
     void Start()
     {
         time = 0;
-        speed = 3;
+        speed = 5;
         Destroy(gameObject, 2f);
     }
 
