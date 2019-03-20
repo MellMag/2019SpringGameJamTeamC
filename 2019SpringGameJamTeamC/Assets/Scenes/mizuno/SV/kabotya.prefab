@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &8882993440497748935
+--- !u!1 &6696723106795257500
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,39 +8,39 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 695652562965227839}
-  - component: {fileID: 3490871250059973970}
-  - component: {fileID: 2469431586850657175}
-  - component: {fileID: 8325304427461734178}
-  - component: {fileID: 9146377426414850542}
+  - component: {fileID: 8527532136995984293}
+  - component: {fileID: 2036147047894814585}
+  - component: {fileID: 8480212349732369304}
+  - component: {fileID: 2862428569561063639}
+  - component: {fileID: 5194966816156381475}
   m_Layer: 0
-  m_Name: bake
+  m_Name: kabotya
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &695652562965227839
+--- !u!4 &8527532136995984293
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8882993440497748935}
+  m_GameObject: {fileID: 6696723106795257500}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.3, y: 2.51, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
+  m_LocalPosition: {x: 3.18, y: -2.64, z: 0}
+  m_LocalScale: {x: 0.3, y: 0.3, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &3490871250059973970
+--- !u!212 &2036147047894814585
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8882993440497748935}
+  m_GameObject: {fileID: 6696723106795257500}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -71,24 +71,24 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 50076baf09b995f45895ab1702eec926, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 24fa02fad7b8c834d914056561698744, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 2.85, y: 1.77}
+  m_Size: {x: 2.25, y: 2.25}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &2469431586850657175
-BoxCollider2D:
+--- !u!58 &8480212349732369304
+CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8882993440497748935}
+  m_GameObject: {fileID: 6696723106795257500}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
@@ -96,26 +96,16 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2.85, y: 1.77}
-    newSize: {x: 2.85, y: 1.77}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.85, y: 1.7437778}
-  m_EdgeRadius: 0
---- !u!50 &8325304427461734178
+  m_Radius: 1
+--- !u!50 &2862428569561063639
 Rigidbody2D:
   serializedVersion: 4
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8882993440497748935}
+  m_GameObject: {fileID: 6696723106795257500}
   m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
@@ -129,16 +119,16 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &9146377426414850542
+--- !u!114 &5194966816156381475
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8882993440497748935}
+  m_GameObject: {fileID: 6696723106795257500}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 09b1453d1fb9d6341a6a53579557dd4d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HP: 15
+  HP: 8
