@@ -6,15 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Tsutida/Tsubasa.unity
-    guid: 28ba8b9be4a630f4f8010b1aa15182eb
-  - enabled: 1
-    path: Assets/Scenes/Tsutida/Result.unity
-    guid: 08b4454099f3c1947aa3e09ae4b5c408
+    path: Assets/poiful/poiful.unity
+    guid: 26bfc27244bf77347af46c782088ef47
   - enabled: 1
     path: Assets/MainGame.unity
     guid: e325c9f48ab9a094eb13f4c0626872c6
   - enabled: 1
-    path: Assets/poiful/poiful.unity
-    guid: 26bfc27244bf77347af46c782088ef47
+    path: Assets/Scenes/Tsutida/Result.unity
+    guid: 08b4454099f3c1947aa3e09ae4b5c408
   m_configObjects: {}

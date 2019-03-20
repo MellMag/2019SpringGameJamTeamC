@@ -21,7 +21,7 @@ public class GameOver : MonoBehaviour
         {
             cnt += 1;
         }
-        if (cnt >= 300)
+        if (cnt >= 200)
         {
             SceneManager.LoadScene("Result");
         }

@@ -38,6 +38,7 @@ public class Object : MonoBehaviour
 
     public void ClickeOnHit()
     {
+        ScoreManager.clikcnt++;
         HP--;
         cnt++;
         if (HP == 0)

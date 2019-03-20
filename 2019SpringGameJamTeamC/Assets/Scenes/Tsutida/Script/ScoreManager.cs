@@ -8,8 +8,10 @@ public class ScoreManager : MonoBehaviour
     GameObject semanager;
     private AudioSource sound01;
     Text m_Text;
+    Text m_Text2;
     RectTransform m_RectTransform;
     public static int point = 0;
+    public static int clikcnt = 0;
     //public static int endpoint = 0;
 
     // 初期化
@@ -19,6 +21,7 @@ public class ScoreManager : MonoBehaviour
         sound01 = GetComponent<AudioSource>();
         //endpoint = 0;
         m_Text = GetComponent<Text>();
+        //m_Text2 = GetComponent<Text>();
         m_RectTransform = GetComponent<RectTransform>();
     }
 
@@ -32,9 +35,13 @@ public class ScoreManager : MonoBehaviour
         }
         // オブジェクトからTextコンポーネントを取得
         Text score_text = m_Text.GetComponent<Text>();
+        //Text score_text2 = m_Text2.GetComponent<Text>();
         //スコアテキスト表示
         score_text.text = "Score:" + point;
-        
+        //score_text2.text = "ClickCount" + clikcnt;
+
+
+
 
     }
     void changeFontSize()
