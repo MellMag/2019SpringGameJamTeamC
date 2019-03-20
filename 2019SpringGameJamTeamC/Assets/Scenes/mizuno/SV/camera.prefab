@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 981646640212014613}
   - component: {fileID: 5383285511968319692}
-  - component: {fileID: 5196495710599808025}
   - component: {fileID: 7736173357888232321}
   - component: {fileID: 8085834116708036890}
+  - component: {fileID: 8944506441320021424}
   m_Layer: 0
   m_Name: camera
   m_TagString: Untagged
@@ -29,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 8945345929229333182}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.3, y: 0.3, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -82,32 +82,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &5196495710599808025
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8945345929229333182}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 5.46, y: 5.46}
-    newSize: {x: 5.46, y: 5.46}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 5.46, y: 4.1}
-  m_EdgeRadius: 0
 --- !u!50 &7736173357888232321
 Rigidbody2D:
   serializedVersion: 4
@@ -142,3 +116,48 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HP: 5
+--- !u!60 &8944506441320021424
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8945345929229333182}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 5.46, y: 5.46}
+    newSize: {x: 5.46, y: 5.46}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 2.35, y: 1.68}
+      - {x: 2.1599998, y: 1.79}
+      - {x: 1.5799999, y: 1.8199999}
+      - {x: 1.36, y: 1.7199999}
+      - {x: 1.3199999, y: 1.41}
+      - {x: 1.03, y: 1.54}
+      - {x: 0.82, y: 2.02}
+      - {x: 0.75, y: 2.06}
+      - {x: -0.78, y: 2.06}
+      - {x: -0.93, y: 1.9599999}
+      - {x: -1.29, y: 1.7099999}
+      - {x: -2.02, y: 1.7199999}
+      - {x: -2.59, y: 1.66}
+      - {x: -2.73, y: 1.37}
+      - {x: -2.73, y: -2.04}
+      - {x: -2.71, y: -2.06}
+      - {x: 2.71, y: -2.06}
+      - {x: 2.73, y: -2.04}
+      - {x: 2.73, y: 1.37}
+      - {x: 2.72, y: 1.39}
