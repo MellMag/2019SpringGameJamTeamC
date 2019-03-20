@@ -5,14 +5,19 @@ using UnityEngine.UI;
 
 public class ScoreManager : MonoBehaviour
 {
-
+    GameObject semanager;
+    private AudioSource sound01;
     Text m_Text;
     RectTransform m_RectTransform;
-    public static int point = 100;
+    public static int point = 0;
+    public static int endpoint = 0;
 
     // 初期化
     void Start()
     {
+        semanager = GameObject.Find("SEManager"); //HPManagerをシーンから探す
+        sound01 = GetComponent<AudioSource>();
+        endpoint = 0;
         m_Text = GetComponent<Text>();
         m_RectTransform = GetComponent<RectTransform>();
     }
@@ -20,6 +25,11 @@ public class ScoreManager : MonoBehaviour
     // 更新
     void Update()
     {
+        if(point == endpoint)
+        {
+            //sound01.PlayOneShot(sound01.clip);
+            endpoint = 0;
+        }
         if (Input.GetKey(KeyCode.Space))
         {
             changeFontSize();
@@ -28,6 +38,7 @@ public class ScoreManager : MonoBehaviour
         Text score_text = m_Text.GetComponent<Text>();
         //スコアテキスト表示
         score_text.text = "Score:" + point;
+        
 
     }
     void changeFontSize()
@@ -40,5 +51,7 @@ public class ScoreManager : MonoBehaviour
 
         //Change the m_Text text to the message below
         m_Text.text = "I changed my Font size!";
+    
     }
+    
 }
