@@ -10,14 +10,14 @@ public class ScoreManager : MonoBehaviour
     Text m_Text;
     RectTransform m_RectTransform;
     public static int point = 0;
-    public static int endpoint = 0;
+    //public static int endpoint = 0;
 
     // 初期化
     void Start()
     {
         semanager = GameObject.Find("SEManager"); //HPManagerをシーンから探す
         sound01 = GetComponent<AudioSource>();
-        endpoint = 0;
+        //endpoint = 0;
         m_Text = GetComponent<Text>();
         m_RectTransform = GetComponent<RectTransform>();
     }
@@ -25,11 +25,7 @@ public class ScoreManager : MonoBehaviour
     // 更新
     void Update()
     {
-        if(point == endpoint)
-        {
-            //sound01.PlayOneShot(sound01.clip);
-            endpoint = 0;
-        }
+        
         if (Input.GetKey(KeyCode.Space))
         {
             changeFontSize();

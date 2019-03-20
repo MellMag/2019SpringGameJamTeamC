@@ -21,7 +21,7 @@ public class TitleScene : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-            SceneManager.LoadScene("Tsubasa");
+            SceneManager.LoadScene("poiful");
         }
     }
 }

@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 8792018353900563677}
   m_Layer: 0
   m_Name: kinniku
-  m_TagString: Untagged
+  m_TagString: SV
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -293,7 +293,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09b1453d1fb9d6341a6a53579557dd4d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HP: 100
+  HP: 50
 --- !u!82 &8792018353900563677
 AudioSource:
   m_ObjectHideFlags: 0

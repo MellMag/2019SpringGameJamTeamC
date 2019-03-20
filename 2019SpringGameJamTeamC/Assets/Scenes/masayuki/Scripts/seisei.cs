@@ -43,7 +43,7 @@ public class seisei : MonoBehaviour
     void Start()
     {
         time = 0;
-        rate = 2;
+        rate = 1;
     }
 
     // Update is called once per frame
@@ -57,6 +57,7 @@ public class seisei : MonoBehaviour
             rate *= 0.9;
             timeElapsed = 0.0f;
         }
+
             if (time >= rate)
             {
                 x = Random.Range(-8.0f, -2.0f);

@@ -28,14 +28,14 @@ public class GameOver : MonoBehaviour
     }
     private void OnTriggerStay2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "Finish")
+        if (collision.gameObject.tag == "SV")
         {
             YesActive = true;
         }
     }
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "Finish")
+        if (collision.gameObject.tag == "SV")
         {
             YesActive = false;
             cnt = 0;

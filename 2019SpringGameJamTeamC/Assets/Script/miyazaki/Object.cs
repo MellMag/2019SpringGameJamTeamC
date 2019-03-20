@@ -45,7 +45,7 @@ public class Object : MonoBehaviour
             semanager.GetComponent<SEManager>().SendMessage("SE");
             sound01.PlayOneShot(sound01.clip);
             ScoreManager.point += 10 * cnt;
-            ScoreManager.point = ScoreManager.endpoint;
+            //ScoreManager.point = ScoreManager.endpoint;
             Destroy(gameObject);  
         }
     }

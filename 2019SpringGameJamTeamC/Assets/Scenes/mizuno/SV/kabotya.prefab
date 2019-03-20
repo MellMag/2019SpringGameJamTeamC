@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 8227814872460997342}
   m_Layer: 0
   m_Name: kabotya
-  m_TagString: Untagged
+  m_TagString: SV
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -116,7 +116,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09b1453d1fb9d6341a6a53579557dd4d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HP: 8
+  HP: 4
 --- !u!60 &6996046220218160776
 PolygonCollider2D:
   m_ObjectHideFlags: 0
