@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &1784359883341413653
+--- !u!1 &2746052159132291678
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,39 +8,39 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 207265195393179823}
-  - component: {fileID: 6591449013027828891}
-  - component: {fileID: 5776940241293304120}
-  - component: {fileID: 3252469424308061478}
-  - component: {fileID: 617761682365669745}
+  - component: {fileID: 2746052159132291676}
+  - component: {fileID: 2746052159132291679}
+  - component: {fileID: 3678006265015678490}
+  - component: {fileID: 6780244839812973551}
+  - component: {fileID: 5435038160165803640}
   m_Layer: 0
-  m_Name: inseki
+  m_Name: cake
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &207265195393179823
+--- !u!4 &2746052159132291676
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1784359883341413653}
+  m_GameObject: {fileID: 2746052159132291678}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.94183725, y: -1.3756562, z: 0}
+  m_LocalPosition: {x: 17.956532, y: -3.3610287, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &6591449013027828891
+--- !u!212 &2746052159132291679
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1784359883341413653}
+  m_GameObject: {fileID: 2746052159132291678}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -71,7 +71,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: beda0231ea398d646b4114010ee282b3, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 426a819a7d7d093459f57017e21f81b1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -82,13 +82,34 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!60 &5776940241293304120
+--- !u!50 &3678006265015678490
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2746052159132291678}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!60 &6780244839812973551
 PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1784359883341413653}
+  m_GameObject: {fileID: 2746052159132291678}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
@@ -107,71 +128,36 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0.375, y: -0.185}
-      - {x: 0.36499998, y: -0.145}
-      - {x: 0.305, y: -0.125}
-      - {x: 0.505, y: 0.055}
-      - {x: 0.79499996, y: 0.42499998}
-      - {x: 0.635, y: 0.42499998}
-      - {x: 0.60499996, y: 0.375}
-      - {x: 0.525, y: 0.36499998}
-      - {x: 0.545, y: 0.36499998}
-      - {x: 0.575, y: 0.39499998}
-      - {x: 0.66499996, y: 0.475}
-      - {x: 0.765, y: 0.625}
-      - {x: 0.885, y: 0.85499996}
-      - {x: 0.92499995, y: 0.945}
-      - {x: 0.895, y: 0.965}
-      - {x: 0.805, y: 0.92499995}
-      - {x: 0.685, y: 0.875}
-      - {x: 0.21499999, y: 0.635}
-      - {x: 0.105, y: 0.635}
-      - {x: -0.36499998, y: 0.305}
-      - {x: -0.53499997, y: 0.155}
-      - {x: -0.565, y: 0.185}
-      - {x: -0.835, y: -0.13499999}
-      - {x: -0.945, y: -0.315}
-      - {x: -0.98499995, y: -0.405}
-      - {x: -0.98499995, y: -0.685}
-      - {x: -0.935, y: -0.78499997}
-      - {x: -0.885, y: -0.84499997}
-      - {x: -0.84499997, y: -0.875}
-      - {x: -0.745, y: -0.92499995}
-      - {x: -0.475, y: -0.92499995}
-      - {x: -0.265, y: -0.815}
-      - {x: -0.185, y: -0.73499995}
-      - {x: -0.015, y: -0.585}
---- !u!50 &3252469424308061478
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1784359883341413653}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
---- !u!114 &617761682365669745
+    - - {x: 0.84499997, y: 0.074999996}
+      - {x: 0.825, y: 0.13499999}
+      - {x: 0.585, y: 0.415}
+      - {x: 0.445, y: 0.625}
+      - {x: 0.345, y: 0.695}
+      - {x: 0.285, y: 0.695}
+      - {x: 0.155, y: 0.585}
+      - {x: -0.095, y: 0.355}
+      - {x: -0.53499997, y: 0.16499999}
+      - {x: -0.675, y: 0.085}
+      - {x: -0.775, y: -0.005}
+      - {x: -0.775, y: -0.295}
+      - {x: -0.73499995, y: -0.555}
+      - {x: -0.66499996, y: -0.60499996}
+      - {x: -0.48499998, y: -0.635}
+      - {x: -0.315, y: -0.66499996}
+      - {x: 0.114999995, y: -0.66499996}
+      - {x: 0.445, y: -0.645}
+      - {x: 0.805, y: -0.615}
+      - {x: 0.84499997, y: -0.515}
+--- !u!114 &5435038160165803640
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1784359883341413653}
+  m_GameObject: {fileID: 2746052159132291678}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 09b1453d1fb9d6341a6a53579557dd4d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HP: 30
+  HP: 5
