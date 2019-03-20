@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Tsutida/Result.unity
     guid: 08b4454099f3c1947aa3e09ae4b5c408
+  - enabled: 1
+    path: Assets/Scenes/Tsutida/Tsubasa2.unity
+    guid: dc6e6b30432eccd44a955305362de46f
   m_configObjects: {}
