@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class title : MonoBehaviour
 {
-
     float speed = 0.005f;
 
     // Start is called before the first frame update
