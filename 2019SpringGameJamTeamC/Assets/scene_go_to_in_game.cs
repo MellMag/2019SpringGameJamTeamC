@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.SceneManagement;
+using UnityEngine;
 
 public class scene_go_to_in_game : MonoBehaviour
 {
@@ -13,6 +14,9 @@ public class scene_go_to_in_game : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetMouseButtonDown(0))
+        {
+            SceneManager.LoadScene("MainGame");
+        }
     }
 }
