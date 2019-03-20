@@ -12,6 +12,10 @@ public class seisei : MonoBehaviour
     public GameObject Image;
     public GameObject Image1;
     public GameObject Image2;
+    public GameObject Image3;
+    public GameObject Image4;
+    public GameObject Image5;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -24,11 +28,11 @@ public class seisei : MonoBehaviour
         time += Time.deltaTime;
         if (time >= 2)
         {
-            x = Random.Range(-4.0f, -2.0f);
-            y = Random.Range(5.0f, 5.0f);
+            x = Random.Range(-8.0f, -2.0f);
+            y = Random.Range(15.0f, 15.0f);
             z = Random.Range(0.0f, 18.0f);
          
-            type = Random.Range(0.0f, 3.0f);
+            type = Random.Range(0.0f, 6.0f);
             type = Mathf.Floor(type);
             switch (type)
             {
@@ -42,6 +46,15 @@ public class seisei : MonoBehaviour
                     break;
                 case 2:
                     Instantiate(Image2, new Vector3(x, y, z), transform.rotation);
+                    break;
+                case 3:
+                    Instantiate(Image3, new Vector3(x, y, z), transform.rotation);
+                    break;
+                case 4:
+                    Instantiate(Image4, new Vector3(x, y, z), transform.rotation);
+                    break;
+                case 5:
+                    Instantiate(Image5, new Vector3(x, y, z), transform.rotation);
                     break;
             }
                     time = 0f;
