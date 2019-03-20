@@ -10,13 +10,14 @@ public class ScoreManager : MonoBehaviour
     Text m_Text;
     Text m_Text2;
     RectTransform m_RectTransform;
-    public static int point = 0;
+    public static int point= 0;
     public static int clikcnt = 0;
     //public static int endpoint = 0;
 
     // 初期化
     void Start()
     {
+        
         semanager = GameObject.Find("SEManager"); //HPManagerをシーンから探す
         sound01 = GetComponent<AudioSource>();
         //endpoint = 0;

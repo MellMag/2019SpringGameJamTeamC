@@ -22,6 +22,7 @@ public class TitleScene : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             SceneManager.LoadScene("poiful");
+            ScoreManager.point = 0;
         }
     }
 }
